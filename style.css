@@ -1,11 +1,4 @@
-/* echo "# edTech" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/wpmdalamin/edTech.git
-git push -u origin main */
-
+ /* Row CSS  */
 .logo-img {
     width: 100px;
 }
