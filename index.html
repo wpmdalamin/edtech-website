@@ -228,16 +228,22 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                                <h5 class="modal-title text-center" id="exampleModalLabel">Register Now</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="Register-form w-75 mx-auto">
                                     <form action="" class="d-flex flex-column">
-                                        <input type="text" placeholder="Your Name" />
-                                        <input type="email" name="" id="" placeholder="Your Email" />
-                                        <input type="password" name="" id="" placeholder="****" />
-                                        <input type="submit" value="Register" />
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" />
+
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" />
+
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password" placeholder="****" />
+
+                                        <input type="submit" class="form-control btn btn-primary mt-3" value="Register" />
                                     </form>
                                 </div>
                             </div>
