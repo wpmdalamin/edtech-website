@@ -15,14 +15,8 @@
 }
 .mobil-menu li {
     padding: 7px 10px;
-    border-bottom: 1px solid #888888;
-    
+    border-bottom: 1px solid #888888; 
 }
-.mobil-menu li a{
-    
-}
-
-
 .footer-menu li a i {
     color: wheat;
     padding: 15px;
